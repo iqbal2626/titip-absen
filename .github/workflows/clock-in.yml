@@ -2,7 +2,7 @@ name: Clock In
 on:
   workflow_dispatch:
   schedule:
-    - cron: "55 8 * * MON-FRI"
+    - cron: "55 1 * * MON-FRI"
 env:
   TALENTA_USERNAME: ${{ secrets.TALENTA_USERNAME }}
   TALENTA_PASSWORD: ${{ secrets.TALENTA_PASSWORD }}
